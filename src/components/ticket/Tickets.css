@@ -1,0 +1,22 @@
+.ticket {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 44px;
+    transition: background-color 0.3s ease; /* Smooth transition for background-color */
+  }
+  
+  .ticket:hover {
+    background-color: #aaaaaa; /* Change background color on hover */
+  }
+  
+  .discText {
+    display: inline-block; /* Change the display to inline-block */
+    margin-right: 20px; /* Add some margin between the items */
+  }
+  
+  .discText span {
+    display: inline-block; /* Make each span display inline-block */
+  }
+  

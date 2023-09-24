@@ -1,0 +1,26 @@
+.boardColumn {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+.Title{
+    padding: 10px 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333; 
+    transition: color 0.3s; 
+  }
+  
+  .icon-button:hover {
+    color: #007bff; 
+  }
+  
