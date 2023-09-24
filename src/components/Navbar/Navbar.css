@@ -1,3 +1,4 @@
+/* Navbar Styles */
 .navbar {
   background-color: white;
   color: white;
@@ -6,8 +7,10 @@
 
 .nav-item {
   display: flex;
-  align-items: center;
-  position: relative;
+    flex-wrap: wrap; /* Allow contents to wrap when needed */
+    align-items: center;
+    position: relative;
+    max-width: 100%; /* Set maximum width to prevent overflow */
 }
 
 .nav-button {
@@ -42,14 +45,17 @@
 .itemRow {
   padding: 10px 10px;
   display: flex;
+  flex-wrap: wrap; /* Allow contents to wrap when needed */
   justify-content: space-between;
   align-items: center;
+  max-width: 100%; /* Set maximum width to prevent overflow */
 }
 
 .dropdown p {
   text-decoration: none;
   color: #828385;
-  padding: 5px 0;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
 }
 
 .nav-button:focus + .dropdown,
@@ -76,12 +82,19 @@
   }
 
   .itemRow {
-    padding: 5px 0;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow contents to wrap when needed */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%; /* Set maximum width to prevent overflow */
   }
 
   .nav-item {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; /* Allow contents to wrap when needed */
+    align-items: center;
+    position: relative;
+    max-width: 100%; /* Set maximum width to prevent overflow */
   }
 }
