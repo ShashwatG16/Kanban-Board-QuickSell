@@ -16,7 +16,6 @@
   
   .board-columns {
     display: flex;
-    gap: 20px;
   }
   
   /* Responsive styles for smaller screens */
