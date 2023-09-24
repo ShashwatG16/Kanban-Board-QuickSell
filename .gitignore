@@ -22,7 +22,10 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
+<<<<<<< HEAD
 node_modules/
+=======
+>>>>>>> ef6863bd06891782467304624984d2edaaf5bf2f
 
 # nyc test coverage
 .nyc_output
@@ -128,4 +131,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+<<<<<<< HEAD
 .pnp.*
+=======
+.pnp.*
+>>>>>>> ef6863bd06891782467304624984d2edaaf5bf2f
